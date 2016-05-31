@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyHelpline.QuotesTool", "EnergyHelpline.QuotesTool\EnergyHelpline.QuotesTool.csproj", "{733A670A-0B56-443C-9A30-CD1C34CCEA58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyHelpline.QuotesTool.Common", "EnergyHelpline.QuotesTool.Common\EnergyHelpline.QuotesTool.Common.csproj", "{A401B841-EA4D-4442-8B12-0F38758DCADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyHelpline.QuotesTool.InputOutputService", "EnergyHelpline.QuotesTool.InputOutputService\EnergyHelpline.QuotesTool.InputOutputService.csproj", "{CC19E3E2-5102-467D-AB0B-30123B89827F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyHelpline.QuotesTool.Calculator", "EnergyHelpline.QuotesTool.Calculator\EnergyHelpline.QuotesTool.Calculator.csproj", "{66F43191-1CF8-43D5-9CE7-D134CED13CB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyHelpline.QuotesTool.NotificationService", "EnergyHelpline.QuotesTool.NotificationService\EnergyHelpline.QuotesTool.NotificationService.csproj", "{FA70D17D-5732-4BFE-B364-C1BF4F925129}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyHelpline.QuoteTool.Tests", "EnergyHelpline.QuoteTool.Tests\EnergyHelpline.QuoteTool.Tests.csproj", "{281CCBBE-6251-4A96-922F-B0C90D405BD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{733A670A-0B56-443C-9A30-CD1C34CCEA58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{733A670A-0B56-443C-9A30-CD1C34CCEA58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{733A670A-0B56-443C-9A30-CD1C34CCEA58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{733A670A-0B56-443C-9A30-CD1C34CCEA58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A401B841-EA4D-4442-8B12-0F38758DCADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A401B841-EA4D-4442-8B12-0F38758DCADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A401B841-EA4D-4442-8B12-0F38758DCADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A401B841-EA4D-4442-8B12-0F38758DCADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC19E3E2-5102-467D-AB0B-30123B89827F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC19E3E2-5102-467D-AB0B-30123B89827F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC19E3E2-5102-467D-AB0B-30123B89827F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC19E3E2-5102-467D-AB0B-30123B89827F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F43191-1CF8-43D5-9CE7-D134CED13CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F43191-1CF8-43D5-9CE7-D134CED13CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F43191-1CF8-43D5-9CE7-D134CED13CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F43191-1CF8-43D5-9CE7-D134CED13CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA70D17D-5732-4BFE-B364-C1BF4F925129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA70D17D-5732-4BFE-B364-C1BF4F925129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA70D17D-5732-4BFE-B364-C1BF4F925129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA70D17D-5732-4BFE-B364-C1BF4F925129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{281CCBBE-6251-4A96-922F-B0C90D405BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{281CCBBE-6251-4A96-922F-B0C90D405BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{281CCBBE-6251-4A96-922F-B0C90D405BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{281CCBBE-6251-4A96-922F-B0C90D405BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
