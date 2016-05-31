@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="EnergyHelpline.QuotesTool.NotificationService" GeneratedClassName="NotificationSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ApiKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NotificationServiceApiKey</Value>
+    </Setting>
+    <Setting Name="SenderEmail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SenderEmail</Value>
+    </Setting>
+    <Setting Name="SenderDisplayName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SenderDisplayName</Value>
+    </Setting>
+    <Setting Name="MissingSenderKeyError" Type="System.String" Scope="User">
+      <Value Profile="(Default)">"Ensure sender email / sender display name has been stored in the config file."</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
