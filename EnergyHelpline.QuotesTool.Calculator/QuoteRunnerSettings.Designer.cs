@@ -49,9 +49,9 @@ namespace EnergyHelpline.QuotesTool.Calculator {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("\"Please find below the cheapest quote our system has generated based on your usag" +
-            "e. <br /> Date: {0} <br /> Gas Usage: {1} <br /> Electricity Usage: {2} <br /> C" +
-            "heapest Tariff: {3} <br /> Annual Cost: £{4}\"")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Please find below the cheapest quote our system has generated based on your usage" +
+            ". <br /><br /> Date: {0} <br /> Gas Usage: {1} kWh<br /> Electricity Usage: {2} " +
+            "kWh <br /> Cheapest Tariff: {3} <br /> Annual Cost: £{4}")]
         public string HtmlPayload {
             get {
                 return ((string)(this["HtmlPayload"]));
